@@ -134,8 +134,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae61b438be2513c28ad26dcd70f0fa193"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0b9a57ea428a6e07cf253651e595fe0"><td class="memItemLeft" align="right" valign="top">const map&lt; string, string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvrs_1_1_recordable.html#ab0b9a57ea428a6e07cf253651e595fe0">getTags</a> () const</td></tr>
 <tr class="separator:ab0b9a57ea428a6e07cf253651e595fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa87da76bc73416efa800f7d4016f1d1b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structvrs_1_1_stream_tags.html">StreamTags</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvrs_1_1_recordable.html#aa87da76bc73416efa800f7d4016f1d1b">getRecordableTags</a> () const</td></tr>
-<tr class="separator:aa87da76bc73416efa800f7d4016f1d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc9da4fc183423b6d0489462998abe1e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structvrs_1_1_stream_tags.html">StreamTags</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvrs_1_1_recordable.html#adc9da4fc183423b6d0489462998abe1e">getStreamTags</a> () const</td></tr>
+<tr class="separator:adc9da4fc183423b6d0489462998abe1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca23edcddd619e0b4146ff09403b5101"><td class="memItemLeft" align="right" valign="top">const string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvrs_1_1_recordable.html#aca23edcddd619e0b4146ff09403b5101">getSerialNumber</a> () const</td></tr>
+<tr class="separator:aca23edcddd619e0b4146ff09403b5101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f7d754b5dbb1a60997971db1d5a5c15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvrs_1_1_record_manager.html">RecordManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvrs_1_1_recordable.html#a6f7d754b5dbb1a60997971db1d5a5c15">getRecordManager</a> ()</td></tr>
 <tr class="separator:a6f7d754b5dbb1a60997971db1d5a5c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -145,6 +147,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ad3b2a8a571160b7dbf5136a2edeafa2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a512aba3768c5b85531594ea5765f2862"><td class="memItemLeft" align="right" valign="top">static const string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvrs_1_1_recordable.html#a512aba3768c5b85531594ea5765f2862">getFlavorTagName</a> ()</td></tr>
 <tr class="separator:a512aba3768c5b85531594ea5765f2862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e50574e4759508a13510ae6e7d74513"><td class="memItemLeft" align="right" valign="top"><a id="a4e50574e4759508a13510ae6e7d74513"></a>
+static const string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvrs_1_1_recordable.html#a4e50574e4759508a13510ae6e7d74513">getSerialNumberTagName</a> ()</td></tr>
+<tr class="memdesc:a4e50574e4759508a13510ae6e7d74513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the VRS tag used to store the stream's serial number. <br /></td></tr>
+<tr class="separator:a4e50574e4759508a13510ae6e7d74513"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a7c86260e9094619a48601f41faabe2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvrs_1_1_recordable.html#a2a7c86260e9094619a48601f41faabe2">resetNewInstanceIds</a> ()</td></tr>
 <tr class="separator:a2a7c86260e9094619a48601f41faabe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -154,6 +160,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a822a517531c5c44b21db59cde04eda09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7e5c232cb3bccacdc7d6478471a8fae"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classvrs_1_1_record.html">Record</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvrs_1_1_recordable.html#ac7e5c232cb3bccacdc7d6478471a8fae">createRecord</a> (double timestampSec, <a class="el" href="classvrs_1_1_record.html#a449931b6fc23eaef585e3c7a4c0ed2ce">Record::Type</a> recordType, uint32_t formatVersion, const <a class="el" href="classvrs_1_1_data_source.html">DataSource</a> &amp;data=<a class="el" href="classvrs_1_1_data_source.html">DataSource</a>())</td></tr>
 <tr class="separator:ac7e5c232cb3bccacdc7d6478471a8fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3bb0193bde832910fff0765bb952b82"><td class="memItemLeft" align="right" valign="top"><a id="ab3bb0193bde832910fff0765bb952b82"></a>
+map&lt; string, string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvrs_1_1_recordable.html#ab3bb0193bde832910fff0765bb952b82">getVRSTags</a> ()</td></tr>
+<tr class="memdesc:ab3bb0193bde832910fff0765bb952b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">When direct edits of VRS tags is conventient (record filters) <br /></td></tr>
+<tr class="separator:ab3bb0193bde832910fff0765bb952b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -407,7 +417,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>RecordFileWriter</b>
   <table class="params">
     <tr><td class="paramname">timestampSec</td><td>Timestamp of the record. <em>All the records of all the recordables</em> attached to the same <a class="el" href="classvrs_1_1_record_file_writer.html" title="The class to create VRS files.">RecordFileWriter</a> must have timestamps in <em>the same time domain</em>, or they won't be managed &amp; sorted in a sensible way. Respecting this requirement is essential, as records will be ordered on disk and played back sorted by their timestamp. Timestamps are a count of seconds since some arbitrary point in time, EPOCH or not (usually). </td></tr>
     <tr><td class="paramname">recordType</td><td>The type of the record. </td></tr>
-    <tr><td class="paramname">formatVersion</td><td>Each record specifies how it encodes its data using a formatVersion. This format version may reference a <a class="el" href="classvrs_1_1_record_format.html" title="Description of the format of a VRS record as a succession of typed blocks of content.">RecordFormat</a> definition that has been provided using RecordFormat::addRecordFormat() (new/better API), or reference a data format managed manually by the user of the API (early API, before <a class="el" href="classvrs_1_1_record_format.html" title="Description of the format of a VRS record as a succession of typed blocks of content.">RecordFormat</a> &amp; <a class="el" href="classvrs_1_1_data_layout.html" title="The DataLayout class describes the data stored inside a DataLayoutContentBlock.">DataLayout</a>). The version number only need to be unique for this device and record type, but needs to be carefully managed over time, or you won't be able to interpret files created in the past. </td></tr>
+    <tr><td class="paramname">formatVersion</td><td>Each record specifies how it encodes its data using a formatVersion. This format version may reference a <a class="el" href="classvrs_1_1_record_format.html" title="Description of the format of a VRS record as a succession of typed blocks of content.">RecordFormat</a> definition that has been provided using <a class="el" href="classvrs_1_1_record_format.html#a4bb88867e1f983ab46cf8cff83b4e69f">RecordFormat::addRecordFormat()</a> (new/better API), or reference a data format managed manually by the user of the API (early API, before <a class="el" href="classvrs_1_1_record_format.html" title="Description of the format of a VRS record as a succession of typed blocks of content.">RecordFormat</a> &amp; <a class="el" href="classvrs_1_1_data_layout.html" title="The DataLayout class describes the data stored inside a DataLayoutContentBlock.">DataLayout</a>). The version number only need to be unique for this device and record type, but needs to be carefully managed over time, or you won't be able to interpret files created in the past. </td></tr>
     <tr><td class="paramname">data</td><td>A <a class="el" href="classvrs_1_1_data_source.html" title="A class referencing data to be captured in a record at creation.">DataSource</a> that points to the record's actual data payload. </td></tr>
   </table>
   </dd>
@@ -549,32 +559,6 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>RecordFileWriter</b>
 
 </div>
 </div>
-<a id="aa87da76bc73416efa800f7d4016f1d1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa87da76bc73416efa800f7d4016f1d1b">&#9670;&nbsp;</a></span>getRecordableTags()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structvrs_1_1_stream_tags.html">StreamTags</a>&amp; vrs::Recordable::getRecordableTags </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Get all the tags at once, both internal &amp; user tags. </p><dl class="section return"><dt>Returns</dt><dd>All the user and VRS tags. </dd></dl>
-
-</div>
-</div>
 <a id="af26e428b6a13f5a7dc37b63da0d21163"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af26e428b6a13f5a7dc37b63da0d21163">&#9670;&nbsp;</a></span>getRecordableTypeId()</h2>
 
@@ -627,6 +611,32 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>RecordFileWriter</b>
 
 </div>
 </div>
+<a id="aca23edcddd619e0b4146ff09403b5101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca23edcddd619e0b4146ff09403b5101">&#9670;&nbsp;</a></span>getSerialNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string&amp; vrs::Recordable::getSerialNumber </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get the stream's unique serial number generated on stream creation. That serial number is universaly unique and it will be preserved during file copies, file processing, and other manipulations that preserve stream tags, whereas the stream's streamID may change. Note that VRS internal tags might be overwritten, in particular during file copy operations, so this serial number might be intentionally replaced (by design). </p>
+
+</div>
+</div>
 <a id="a2e0974187373d6ec5d9054457de97303"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e0974187373d6ec5d9054457de97303">&#9670;&nbsp;</a></span>getStreamId()</h2>
 
@@ -650,6 +660,32 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>RecordFileWriter</b>
 </table>
 </div><div class="memdoc">
 <p>Get the recordable's <a class="el" href="classvrs_1_1_stream_id.html" title="VRS stream identifier class.">StreamId</a>. </p><dl class="section return"><dt>Returns</dt><dd>The recordable's <a class="el" href="classvrs_1_1_stream_id.html" title="VRS stream identifier class.">StreamId</a>. </dd></dl>
+
+</div>
+</div>
+<a id="adc9da4fc183423b6d0489462998abe1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc9da4fc183423b6d0489462998abe1e">&#9670;&nbsp;</a></span>getStreamTags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structvrs_1_1_stream_tags.html">StreamTags</a>&amp; vrs::Recordable::getStreamTags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get all the tags at once, both internal &amp; user tags. </p><dl class="section return"><dt>Returns</dt><dd>All the user and VRS tags. </dd></dl>
 
 </div>
 </div>
