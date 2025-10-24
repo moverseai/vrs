@@ -29,7 +29,7 @@ namespace vrs {
 namespace logging {
 
 void log(Level level, const char* channel, const std::string& message) {
-  const fmt::color kNoColor = static_cast<fmt::color>(0xFFFFFFFF);
+  /*const fmt::color kNoColor = static_cast<fmt::color>(0xFFFFFFFF);
   fmt::color c = kNoColor;
   const char* logLevel = "";
   switch (level) {
@@ -56,7 +56,7 @@ void log(Level level, const char* channel, const std::string& message) {
     fmt::print(stderr, fg(c), "[{}][{}]: {}\x1b[0m\n", channel, logLevel, message);
   } else {
     fmt::print(stderr, "[{}][{}]: {}\n", channel, logLevel, message);
-  }
+  }*/
 }
 
 void log_every_n_seconds(
